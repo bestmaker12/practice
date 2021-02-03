@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+#h1{
+    padding: 10% 0 10% 20% ;
+    font-size: 45px;
+}
+#nav{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    background-color: rgba(228, 241, 254, 1);
+    box-shadow: 3px 0px 3px gray;
+}
+.nav{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.nav li a{
+    display: block;
+    width: 100%;
+    padding: 5% 0;
+    color: #2e3131;
+    font-family: 'Roboto Slab', serif;
+}
+.nav li a:hover{
+    background-color: #fff;
+}
+#contents{
+    margin-left: 310px;
+}
+#contents>div{
+    height: 100vh;
+    width: 100%;
+    padding-left: 1%;
+    overflow: hidden;
+    border-bottom: 2px solid #ccc;
+}
+#contents div ul{
+    overflow: hidden;
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+
+.font{
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 3% 6%; 
+}
+#SELFUI ul li:nth-child(3) img{
+    width: 150px;
+}
+/*self 시작*/
+#img{
+    float: left;
+    margin-left: 10%;
+}
+#img img{
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px gray;
+    padding: 2%;
+}
+#SELFUI{
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    padding-top: 1%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#SELFUI ul li{
+    padding: 5% 0;
+    font-size: 20px;
+    list-style: outside;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/*HTML 시작*/
+#HTMLUI{
+    height: 300px;
+}
+.here{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 30px;
+    transition: all 1s linear;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.here a{
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.here:hover{
+    top: 0;
+}
+#altools{
+    background-image: url("img/altools/h1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#innisfree{
+    background: url("img/innisfree/kjs15978_20210128201900/logo_basic.png") no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+#palace{
+    background: url("img/palace/kjs15978_20210128202017/b01.jpg") no-repeat; 
+    background-position: center;
+}
+#tvn{
+    background: url("img/tvn/635034452367707500.png") no-repeat; 
+    background-size: 70%;
+    background-position: center;
+}
+#yogiyo{
+    background: url("img/images.png") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+/*CSS 시작*/
+#moon{
+    background: url("img/moon_logo.gif") no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#pixar{
+    background: url("img/images.jpg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#two{
+    background: url("img/cake_logo.png") no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#one{
+    background: url("img/logo.jpg") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+#pagpan{
+    background: url("img/pagpan\ \(1\).png") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+#perfume{
+    background: url("img/perfume_logo.png") no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+#page{
+    background: url("img/h1logo.png") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+#shopping{
+    background: url("img/footer_logo.gif") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+#rubato{
+    background: url("img/rubato_logo.png") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+/*반응형 시작*/
+#hotel{
+    background: url("img/hotel.png") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+#advice{
+    background: url("img/명언집.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+/*java시작*/
+#cafe{
+    background: url("img/cafe.jpg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+/*결과물 시작*/
+#mcloud{
+    background: url("img/logo.png") no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+/*footer*/
+footer{
+    margin-left: 2%;
+    background-color: rgba(243, 241, 239, 1);
+    overflow: hidden;
+}
+footer ul{
+    margin: 0 20%;
+}
+footer ul li{
+    float: left;
+    line-height: 30px;
+    margin: 0 2%;
+    font-size: 13px;
+    color: #2e3131;
+}
+
